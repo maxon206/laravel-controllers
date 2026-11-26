@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title', 'Маршрутизация в Laravel') — Laravel Routing</title>
+    <title>@yield('title', 'Контроллеры в Laravel') — Laravel Controllers</title>
     <style>
         :root {
             --bg: #0f172a;
@@ -128,8 +128,8 @@
 <header>
     <div class="wrap nav">
         <a class="brand" href="/">
-            <div class="logo">R</div>
-            <span>Laravel Routing</span>
+            <div class="logo">C</div>
+            <span>Laravel Controllers</span>
         </a>
         <nav class="nav-links">
             <a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Главная</a>
@@ -148,7 +148,7 @@
 
 <footer>
     <div class="wrap footer-row">
-        <span>Практическая работа «Маршрутизация в Laravel» · Laravel {{ app()->version() }}</span>
+        <span>Практическая работа «Контроллеры в Laravel» · Laravel {{ app()->version() }}</span>
         <span>© {{ date('Y') }} · Максим Макаров</span>
     </div>
 </footer>
